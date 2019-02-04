@@ -1,5 +1,5 @@
 # sum_counter
-Homebrew bad benchmark tool.
+Homebrewed bad benchmark tool.
 
 
 just sum every digit of every number. 
