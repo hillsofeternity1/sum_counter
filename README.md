@@ -1,10 +1,11 @@
 # sum_counter
-Sum all digits in numbers from 0 to Y
+Homebrew bad benchmark tool.
 
-Both scripts do the same - just sum every digit in every number. 
+
+just sum every digit of every number. 
 ex. 0 - 12 = 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + *1 + 0 + 1 + 1 + 1 + 2* = 51
 
-Both versions use fork and tested on linux.
+All versions use fork and tested on linux.
 
 GO version
 ```Processing sequence from 0 to 1000000000
