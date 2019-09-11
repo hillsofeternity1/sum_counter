@@ -23,7 +23,7 @@ def sumumatoru_kun(start, end, number, return_dict):
 
 def summ():
     start = 0
-    end = 10000000
+    end = 100000000
     thread_count = multiprocessing.cpu_count() * 2
 
     shift = int((end - start) / thread_count)

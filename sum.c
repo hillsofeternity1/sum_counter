@@ -1,6 +1,6 @@
 // Maximum performance with optimal count of forks.
 // HOW TO BUILD
-// gcc summ.c -lpthread
+// gcc sum.c -lpthread
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/sysinfo.h>
@@ -35,7 +35,8 @@ int main(int argc, char *argv[])
 {
   long end, start, first, last, shift, i, temp;
   int p_pid = getpid();
-  long f_count = 2 * get_nprocs_conf();
+  long f_count = 3 * get_nprocs_conf();
+// long f_count = 1;
   pid_t pid;
   main_result = mmap(NULL, sizeof *main_result,
     PROT_READ | PROT_WRITE,
