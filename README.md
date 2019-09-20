@@ -7,7 +7,7 @@ ex. 0 - 12 = 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + *1 + 0 + 1 + 1 + 1 + 2* = 5
 
 All versions use fork and tested on linux.
 
-GO version
+GO version (Author: Mikhalich)
 ```Processing sequence from 0 to 1000000000
 Shard size: 250000000
 remainder: 0
