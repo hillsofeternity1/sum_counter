@@ -3,7 +3,7 @@ Homebrewed bad benchmark tool.
 
 
 just sum every digit of every number. 
-ex. 0 - 12 = 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + *1 + 0 + 1 + 1 + 1 + 2* = 51
+e.g. 0 - 12 = 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + **1 + 0 + 1 + 1 + 1 + 2** = 51
 
 All versions use fork and tested on linux.
 
