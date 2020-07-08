@@ -2,7 +2,7 @@
 Dim last As Long
 Dim As Long num, digit, sum, start, end_
 start = 0
-end_ = 1000000
+end_ = 1000000000
 
 repeat:
   If start < end_ Then

@@ -26,11 +26,12 @@ func sum_chunk(first int, last int, channel chan int) {
 
 func main() {
   // need to change it to getting from args
-  var first, last int = 0, 1000000000
+//var first, last int = 0, 1000000000
+  var first, last int = 0, 1000000000000
   //fmt.Scanln(&first, "enter first value")
   //fmt.Scanln(&last, "enter last value")
   fmt.Println("Processing sequence from", first, "to", last)
-  nprocs := runtime.NumCPU()
+  nprocs := runtime.NumCPU() * 3
   //nprocs = 1
   runtime.GOMAXPROCS(nprocs)
   if last <= nprocs {

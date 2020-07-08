@@ -35,8 +35,8 @@ int main(int argc, char *argv[])
 {
   long end, start, first, last, shift, i, temp;
   int p_pid = getpid();
-  long f_count = 3 * get_nprocs_conf();
-// long f_count = 1;
+//  long f_count = 3 * get_nprocs_conf();
+ long f_count = 1;
   pid_t pid;
   main_result = mmap(NULL, sizeof *main_result,
     PROT_READ | PROT_WRITE,
