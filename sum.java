@@ -9,7 +9,7 @@ public class Main {
       if (i<10){
         result += i;
       }else {
-        result = result + (number % 10) + (number/10);
+        result = result + (i % 10) + (i/10);
       }
     }
     System.out.println(result);
