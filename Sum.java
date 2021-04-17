@@ -1,3 +1,6 @@
+// Build with: 
+// javac -d . Sum.java && java -cp . Sum
+
 public class Sum {
   public static void main(String[] args) {
     long start = System.currentTimeMillis();
