@@ -1,0 +1,10 @@
+a.out
+.a.out.c
+counter
+*.swp
+.idea
+Main.class
+sum
+sum.bin
+sum.build
+Sum.class

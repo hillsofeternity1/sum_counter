@@ -9,21 +9,23 @@ import time
 # calculating summ between start and end. 
 def sumumatoru_kun(start, end, number, return_dict):
     t = time.process_time()
-    sum_ = 0
+    res = 0
     ss = start
     ee = end
     while start <= end:
-        for digit in str(start):
-            sum_ += int(digit)
+        khui = start
+        while khui > 0:
+          res = res + khui % 10
+          khui = int(khui / 10)
         start += 1
-    return_dict[number] = sum_
+    return_dict[number] = res
     elapsed_time = time.process_time() - t
-    print(" %s\t|%10d\t|%10d\t|%10d\t|\t%6.2f" % (number, ss, ee, sum_, elapsed_time))
-    return sum_
+    print(" %s\t|%10d\t|%10d\t|%10d\t|\t%6.2f" % (number, ss, ee, res, elapsed_time))
+    return res
 
-def summ():
+def sum():
     start = 0
-    end = 100000000
+    end = 1000000000
     thread_count = multiprocessing.cpu_count() * 2
 
     shift = int((end - start) / thread_count)
@@ -52,4 +54,4 @@ def summ():
     print("\n\tFinal result is %d" % result)
 
 if __name__ == '__main__':
-    summ()
+    sum()
